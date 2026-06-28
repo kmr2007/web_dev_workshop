@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: lightblue;
+}
+
+div {
+  background-color: white;
+  padding: 30px;
+  margin: 30px;
+}
+
+img {
+  width: 50%;
+  border: 2px solid black;
+}
+
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+  color: navy;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: magenta;
+}
