@@ -1,0 +1,67 @@
+@font-face {
+  font-family: roca;
+  src: url(assets/Roca\ Regular.ttf);
+}
+
+body {
+  background-color: #faeae1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  margin-block: 3rem;
+}
+
+.left > * {
+  float: right;
+}
+
+.right {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+}
+
+h1 {
+  font-family: roca;
+  color: #eb911e;
+  font-size: 3rem;
+}
+
+label,
+input,
+select,
+button,
+p {
+  font-family: "Asap", sans-serif;
+  font-size: 1.1rem;
+  color: #6c6d64;
+  margin: 0.25rem;
+}
+
+input,
+select {
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: 2px solid #6c6d64;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 2px solid #6c6d64;
+}
+
+button:hover {
+  border: 2px solid #eb911e;
+  color: #faeae1;
+  background-color: #eb911e;
+}
+
+#output {
+  color: #eb911e;
+  font-size: 1.25rem;
+}

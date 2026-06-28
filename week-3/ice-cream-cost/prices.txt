@@ -1,0 +1,9 @@
+Small - $4
+Medium - $6
+Large - $8
+
+First scoop is included, every additional scoop is $1
+
+Ex:
+Small with one scoop = $4
+Small with three scoops = $6
